@@ -16,7 +16,7 @@ setup(
     # Versions should comply with PEP440.  For a discussion on single-sourcing
     # the version across setup.py and the project code, see
     # https://packaging.python.org/en/latest/single_source_version.html
-    version='0.1.0',
+    version='0.1.1',
     # The project's main homepage.
     url='https://github.com/nielspostma/validatexmls',
     license='MIT',
@@ -29,7 +29,6 @@ setup(
 
         # Indicate who your project is intended for
         'Intended Audience :: Developers',
-        'Topic :: Software Development :: XML Tools',
 
         # Pick your license as you wish (should match "license" above)
         'License :: OSI Approved :: MIT License',
@@ -72,29 +71,23 @@ setup(
     # If there are data files included in your packages that need to be
     # installed, specify them here.  If using Python 2.6 or less, then these
     # have to be included in MANIFEST.in as well.
-    package_data=None,
+    package_data = {
+       'my_data': ['data/testfile.txt'],
+        'xsd': ['data/xsd/BC9.xsd'],
+        'input_dir': ['data/input/*'],
+        'error_dir': ['data/error/*'],
+        'output_dir': ['data/output/*']
+    },
+
 
     # Although 'package_data' is the preferred approach, in some case you may
     # need to place data files outside of your packages. See:
     # http://docs.python.org/3.4/distutils/setupscript.html#installing-additional-files # noqa
     # In this case, 'data_file' will be installed into '<sys.prefix>/my_data'
-    data_files=[
-        ('my_data', ['data/testfile.txt']),
-        ('xsd', ['data/xsd/BC9.xsd']),
-        ('xml1', ['data/input/35104616_49_30527.XML']),
-        ('xml2', ['data/input/35104617_49_30527.XML']),
-        ('xml3', ['data/input/35104887_114_40403.XML']),
-        ('xml4', ['data/input/35107864_119_40462.XML']),
-        ('xml5', ['data/input/35108075_119_30561.XML']),
-        ('xml6', ['data/input/35123529_78_40436.XML']),
-    ],
+    data_files=None,
 
     # To provide executable scripts, use entry points in preference to the
     # "scripts" keyword. Entry points provide cross-platform support and allow
     # pip to create the appropriate form of executable for the target platform.
-    entry_points={
-        'console_scripts': [
-            'validatexmls=validatexmls:main',
-        ],
-    },
+    entry_points={ 'console_scripts': [ 'validatexmls=validatexmls.__main__:main', ],},
 )

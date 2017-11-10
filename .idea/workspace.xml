@@ -1,7 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d5ea9ddf-66dc-43f9-8650-d3feae2f4500" name="Default" comment="" />
+    <list default="true" id="d5ea9ddf-66dc-43f9-8650-d3feae2f4500" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/validatexmls/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/validatexmls/__main__.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.pypirc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/error/119/35107864_119_40462.XML" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/error/119/35108075_119_30561.XML" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/error/78/35123529_78_40436.XML" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/input/35104616_49_30527.XML" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/input/35104617_49_30527.XML" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/input/35104887_114_40403.XML" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/input/35105657_160_30567.XML" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/input/35105755_114_10440.XML" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/input/35105790_114_10440.XML" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/input/35106625_114_40416.XML" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/input/35106776_160_40365.XML" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/input/35107605_114_30007.XML" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/input/35107813_114_30618.XML" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/input/35107864_119_40462.XML" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/input/35108009_23_30548.XML" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/input/35108075_119_30561.XML" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/input/35108128_160_40773.XML" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/input/35123529_78_40436.XML" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/input/35284045_115_10440.XML" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/input/35284278_160_30586.XML" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/input/35284322_20_40524.XML" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/input/35372529_114_30594.XML" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/input/35375000_20_10629.XML" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/output/114/35104887_114_40403.XML" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/output/114/35105755_114_10440.XML" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/output/114/35105790_114_10440.XML" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/output/114/35106625_114_40416.XML" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/output/114/35107605_114_30007.XML" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/output/114/35107813_114_30618.XML" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/output/114/35372529_114_30594.XML" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/output/115/35284045_115_10440.XML" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/output/160/35105657_160_30567.XML" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/output/160/35106776_160_40365.XML" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/output/160/35108128_160_40773.XML" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/output/160/35284278_160_30586.XML" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/output/20/35284322_20_40524.XML" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/output/20/35375000_20_10629.XML" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/output/23/35108009_23_30548.XML" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/output/49/35104616_49_30527.XML" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/output/49/35104617_49_30527.XML" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/testfile.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/xsd/BC9.xsd" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MANIFEST.in" afterPath="$PROJECT_DIR$/MANIFEST.in" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/setup.py" afterPath="$PROJECT_DIR$/setup.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/validatexmls/validatexmls.py" afterPath="$PROJECT_DIR$/validatexmls/validatexmls.py" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,15 +64,49 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="setup.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="setup.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/setup.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="616">
-              <caret line="96" column="25" lean-forward="false" selection-start-line="96" selection-start-column="13" selection-end-line="96" selection-end-column="25" />
+            <state relative-caret-position="250">
+              <caret line="13" column="24" lean-forward="false" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
               <folding>
                 <element signature="e#42#85#0" expanded="true" />
-                <element signature="e#743#1401#0" expanded="false" />
+                <element signature="e#743#1347#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="validatexmls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/validatexmls/validatexmls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2575">
+              <caret line="103" column="0" lean-forward="false" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="__main__.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/validatexmls/__main__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="313">
+              <caret line="23" column="72" lean-forward="false" selection-start-line="23" selection-start-column="72" selection-end-line="23" selection-end-column="72" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/validatexmls/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -32,8 +116,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="Setup Script" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -46,6 +130,8 @@
       <find>readme</find>
       <find>ValidateXMLs</find>
       <find>validate-xmls</find>
+      <find>packages</find>
+      <find>validatexmls.validatexmls.</find>
     </findStrings>
     <replaceStrings>
       <replace>vehicle</replace>
@@ -53,6 +139,9 @@
       <replace>validate-xmls</replace>
       <replace>validatexmls</replace>
     </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -70,9 +159,12 @@
         <option value="$PROJECT_DIR$/.pypirc.txt" />
         <option value="$PROJECT_DIR$/validate-xmls/ValidateXMLs.py" />
         <option value="$PROJECT_DIR$/README.txt" />
-        <option value="$PROJECT_DIR$/MANIFEST.in" />
         <option value="$PROJECT_DIR$/README.rst" />
+        <option value="$PROJECT_DIR$/MANIFEST.in" />
         <option value="$PROJECT_DIR$/setup.py" />
+        <option value="$PROJECT_DIR$/validatexmls/__init__.py" />
+        <option value="$PROJECT_DIR$/validatexmls/validatexmls.py" />
+        <option value="$PROJECT_DIR$/validatexmls/__main__.py" />
       </list>
     </option>
   </component>
@@ -83,11 +175,12 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="3017" />
-    <option name="y" value="-21" />
-    <option name="width" value="1295" />
-    <option name="height" value="708" />
+    <option name="x" value="-11" />
+    <option name="y" value="-11" />
+    <option name="width" value="2582" />
+    <option name="height" value="1402" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="Scope" currentSubView="Project Files" proportions="" version="1">
       <flattenPackages />
@@ -115,6 +208,21 @@
               <item name="ValidateXMLs" type="cbb8eebc:String" user="ValidateXMLs" />
               <item name="validatexmls" type="cbb8eebc:String" user="validatexmls" />
             </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="External Dependencies" type="cbb8eebc:String" user="External Dependencies" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="External Dependencies" type="cbb8eebc:String" user="External Dependencies" />
+              <item name="C:" type="cbb8eebc:String" user="C:" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="External Dependencies" type="cbb8eebc:String" user="External Dependencies" />
+              <item name="C:" type="cbb8eebc:String" user="C:" />
+              <item name="Program Files" type="cbb8eebc:String" user="Program Files" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -126,7 +234,7 @@
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -137,11 +245,13 @@
     </option>
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Niels Postma\PycharmProjects\ValidateXMLs\data" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Niels Postma\PycharmProjects\ValidateXMLs" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Niels Postma\PycharmProjects\ValidateXMLs\validatexmls" />
+      <recent name="C:\Users\Niels Postma\PycharmProjects\ValidateXMLs" />
+      <recent name="C:\Users\Niels Postma\PycharmProjects\ValidateXMLs\data" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -156,7 +266,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.__init__">
+  <component name="RunManager" selected="Python.__main__">
     <configuration name="ValidateXMLs" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -171,42 +281,6 @@
       <module name="ValidateXMLs" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/validate-xmls/ValidateXMLs.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
-    <configuration name="ValidateXMLs3" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="ValidateXMLs" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ValidateXMLs3.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
-    <configuration name="ValidateXMLs4" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="ValidateXMLs" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ValidateXMLs4.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -229,6 +303,24 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
+    <configuration name="__init__ (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Python36\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/validatexmls" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ValidateXMLs" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/validatexmls/__init__.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
     <configuration name="__init__" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -243,6 +335,24 @@
       <module name="ValidateXMLs" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/validate-xmls/__init__.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="__main__" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Python36\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/validatexmls" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ValidateXMLs" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/validatexmls/__main__.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -312,20 +422,39 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method />
     </configuration>
-    <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.ValidateXMLs3" />
-      <item index="1" class="java.lang.String" itemvalue="Python.ValidateXMLs4" />
-      <item index="2" class="java.lang.String" itemvalue="Python.ValidateXMLs5" />
-      <item index="3" class="java.lang.String" itemvalue="Python.ValidateXMLs" />
-      <item index="4" class="java.lang.String" itemvalue="Python.__init__" />
+    <configuration name="validatexmls" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/validatexmls" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ValidateXMLs" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/validatexmls/validatexmls.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <list size="6">
+      <item index="0" class="java.lang.String" itemvalue="Python.validatexmls" />
+      <item index="1" class="java.lang.String" itemvalue="Python.ValidateXMLs5" />
+      <item index="2" class="java.lang.String" itemvalue="Python.ValidateXMLs" />
+      <item index="3" class="java.lang.String" itemvalue="Python.__init__" />
+      <item index="4" class="java.lang.String" itemvalue="Python.__init__ (1)" />
+      <item index="5" class="java.lang.String" itemvalue="Python.__main__" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.__init__" />
-        <item index="1" class="java.lang.String" itemvalue="Python.ValidateXMLs" />
-        <item index="2" class="java.lang.String" itemvalue="Python.ValidateXMLs5" />
-        <item index="3" class="java.lang.String" itemvalue="Python.ValidateXMLs3" />
-        <item index="4" class="java.lang.String" itemvalue="Python.ValidateXMLs4" />
+        <item index="0" class="java.lang.String" itemvalue="Python.__main__" />
+        <item index="1" class="java.lang.String" itemvalue="Python.__init__ (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Python.__init__" />
+        <item index="3" class="java.lang.String" itemvalue="Python.ValidateXMLs" />
+        <item index="4" class="java.lang.String" itemvalue="Python.ValidateXMLs5" />
       </list>
     </recent_temporary>
   </component>
@@ -346,18 +475,18 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2552" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-11" y="-11" width="2582" height="1402" extended-state="6" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.196875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19648437" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21098901" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292978" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32768363" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32686085" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42372882" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4101942" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292978" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -385,13 +514,11 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="72" />
+      <option name="time" value="73" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ValidateXMLs2.py" />
-    <entry file="file://$PROJECT_DIR$/ValidateErrors3.py" />
     <entry file="file://$PROJECT_DIR$/ValidateXMLs2.py" />
     <entry file="file://$PROJECT_DIR$/ValidateErrors2.py" />
     <entry file="file://$PROJECT_DIR$/ValidateXMLs2.py" />
@@ -438,13 +565,6 @@
     <entry file="file://$PROJECT_DIR$/ValidateErrors2.py" />
     <entry file="file://$PROJECT_DIR$/ValidateErrors3.py" />
     <entry file="file://$PROJECT_DIR$/ValidateErrorsPerVehicle.py" />
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="507">
-          <caret line="1595" column="0" lean-forward="false" selection-start-line="1595" selection-start-column="0" selection-end-line="1595" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Python36/Lib/ntpath.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="258">
@@ -464,7 +584,6 @@
     <entry file="file://$PROJECT_DIR$/ValidateXMLs4.py" />
     <entry file="file://$PROJECT_DIR$/ValidateXMLs3.py" />
     <entry file="file://$PROJECT_DIR$/ValidateXMLs5.py" />
-    <entry file="file://$PROJECT_DIR$/validatexmls/validatexmls.py" />
     <entry file="file://$PROJECT_DIR$/.pypirc.txt" />
     <entry file="file://C:/Python36/Lib/codecs.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -481,64 +600,15 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/validate-xmls/ValidateXMLs.py" />
-    <entry file="file://$PROJECT_DIR$/data/input/35104616_49_30527.XML">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="650">
-          <caret line="26" column="45" lean-forward="false" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/input/35104617_49_30527.XML">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="650">
-          <caret line="26" column="41" lean-forward="false" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/input/35104887_114_40403.XML">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="800">
-          <caret line="32" column="42" lean-forward="false" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/input/35107864_119_40462.XML">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="33" column="42" lean-forward="false" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/input/35108075_119_30561.XML">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="33" column="42" lean-forward="false" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/input/35123529_78_40436.XML">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="20" column="41" lean-forward="false" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/data/input/35104616_49_30527.XML" />
+    <entry file="file://$PROJECT_DIR$/data/input/35104617_49_30527.XML" />
+    <entry file="file://$PROJECT_DIR$/data/input/35104887_114_40403.XML" />
+    <entry file="file://$PROJECT_DIR$/data/input/35107864_119_40462.XML" />
+    <entry file="file://$PROJECT_DIR$/data/input/35108075_119_30561.XML" />
+    <entry file="file://$PROJECT_DIR$/data/input/35123529_78_40436.XML" />
     <entry file="file://$PROJECT_DIR$/README.txt" />
     <entry file="file://$PROJECT_DIR$/validate-xmls/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/pypirc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MANIFEST.in">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/pypirc" />
     <entry file="file://$PROJECT_DIR$/LICENSE.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -560,13 +630,55 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="1602" column="0" lean-forward="true" selection-start-line="1601" selection-start-column="47" selection-end-line="1602" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MANIFEST.in">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="35" lean-forward="false" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/validatexmls/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/setup.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="96" column="25" lean-forward="false" selection-start-line="96" selection-start-column="13" selection-end-line="96" selection-end-column="25" />
+        <state relative-caret-position="250">
+          <caret line="13" column="24" lean-forward="false" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
           <folding>
             <element signature="e#42#85#0" expanded="true" />
-            <element signature="e#743#1401#0" expanded="false" />
+            <element signature="e#743#1347#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/validatexmls/validatexmls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2575">
+          <caret line="103" column="0" lean-forward="false" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/validatexmls/__main__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="23" column="72" lean-forward="false" selection-start-line="23" selection-start-column="72" selection-end-line="23" selection-end-column="72" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>

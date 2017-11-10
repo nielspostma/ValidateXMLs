@@ -2,4 +2,6 @@
 include LICENSE.txt
 
 # Include the data files
-recursive-include data *
+recursive-include validatexmls/data *
+#recursive-include examples *.py
+#recursive-include doc/html *.html *.css *.js *.png
