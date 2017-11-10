@@ -1,5 +1,6 @@
 import os
-from validatexmls import *
+from validatexmls import xsdFromFile, get_files, xmlTreeFromFile, getFilenameFromXml, getMessageType, \
+    validXML, copyFile, checkKnownIssues
 
 
 def main():

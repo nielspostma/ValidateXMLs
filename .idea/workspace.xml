@@ -2,55 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5ea9ddf-66dc-43f9-8650-d3feae2f4500" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/validatexmls/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/validatexmls/__main__.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.pypirc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/error/119/35107864_119_40462.XML" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/error/119/35108075_119_30561.XML" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/error/78/35123529_78_40436.XML" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/input/35104616_49_30527.XML" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/input/35104617_49_30527.XML" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/input/35104887_114_40403.XML" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/input/35105657_160_30567.XML" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/input/35105755_114_10440.XML" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/input/35105790_114_10440.XML" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/input/35106625_114_40416.XML" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/input/35106776_160_40365.XML" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/input/35107605_114_30007.XML" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/input/35107813_114_30618.XML" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/input/35107864_119_40462.XML" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/input/35108009_23_30548.XML" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/input/35108075_119_30561.XML" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/input/35108128_160_40773.XML" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/input/35123529_78_40436.XML" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/input/35284045_115_10440.XML" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/input/35284278_160_30586.XML" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/input/35284322_20_40524.XML" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/input/35372529_114_30594.XML" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/input/35375000_20_10629.XML" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/output/114/35104887_114_40403.XML" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/output/114/35105755_114_10440.XML" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/output/114/35105790_114_10440.XML" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/output/114/35106625_114_40416.XML" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/output/114/35107605_114_30007.XML" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/output/114/35107813_114_30618.XML" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/output/114/35372529_114_30594.XML" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/output/115/35284045_115_10440.XML" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/output/160/35105657_160_30567.XML" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/output/160/35106776_160_40365.XML" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/output/160/35108128_160_40773.XML" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/output/160/35284278_160_30586.XML" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/output/20/35284322_20_40524.XML" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/output/20/35375000_20_10629.XML" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/output/23/35108009_23_30548.XML" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/output/49/35104616_49_30527.XML" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/output/49/35104617_49_30527.XML" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/testfile.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/xsd/BC9.xsd" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MANIFEST.in" afterPath="$PROJECT_DIR$/MANIFEST.in" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/setup.py" afterPath="$PROJECT_DIR$/setup.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/validatexmls/validatexmls.py" afterPath="$PROJECT_DIR$/validatexmls/validatexmls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/validatexmls/__main__.py" afterPath="$PROJECT_DIR$/validatexmls/__main__.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -92,8 +45,8 @@
       <file leaf-file-name="__main__.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/validatexmls/__main__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="313">
-              <caret line="23" column="72" lean-forward="false" selection-start-line="23" selection-start-column="72" selection-end-line="23" selection-end-column="72" />
+            <state relative-caret-position="75">
+              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -141,6 +94,11 @@
     </replaceStrings>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="nielspostma &lt;niels.postma@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -472,17 +430,26 @@
       <option name="presentableId" value="Default" />
       <updated>1492371688831</updated>
     </task>
+    <task id="LOCAL-00001" summary="update 1">
+      <created>1510325821808</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1510325821809</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="2582" height="1402" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19648437" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19648437" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21098901" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292978" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32686085" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32686085" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -504,6 +471,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="update 1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -644,14 +615,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/validatexmls/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/setup.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
@@ -673,10 +636,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/validatexmls/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/validatexmls/__main__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="23" column="72" lean-forward="false" selection-start-line="23" selection-start-column="72" selection-end-line="23" selection-end-column="72" />
+        <state relative-caret-position="75">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
