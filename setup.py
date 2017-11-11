@@ -16,7 +16,7 @@ setup(
     # Versions should comply with PEP440.  For a discussion on single-sourcing
     # the version across setup.py and the project code, see
     # https://packaging.python.org/en/latest/single_source_version.html
-    version='0.1.4',
+    version='0.1.5',
     # The project's main homepage.
     url='https://github.com/nielspostma/validatexmls',
     license='MIT',
@@ -74,9 +74,9 @@ setup(
     package_data = {
        'my_data': ['data/testfile.txt'],
         'xsd': ['data/xsd/BC9.xsd'],
-        'input_dir': ['data/input/*'],
-        'error_dir': ['data/error/*'],
-        'output_dir': ['data/output/*']
+        'input_dir': ['data/input/35104616_49_30527.XML', 'data/input/35107864_119_40462.XML'],
+        #'error_dir': ['data/error/*'],
+        #'output_dir': ['data/output/*']
     },
 
 
