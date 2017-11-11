@@ -10,6 +10,9 @@ here = path.abspath(path.dirname(__file__))
 with open(path.join(here, 'README.rst'), encoding='utf-8') as f:
     long_description = f.read()
 
+packages1=find_packages(exclude=['contrib', 'docs', 'tests'])
+print('find_packages found:', packages1)
+
 setup(
     name='validatexmls',
 
@@ -57,7 +60,7 @@ setup(
     # your project is installed. For an analysis of "install_requires" vs pip's
     # requirements files see:
     # https://packaging.python.org/en/latest/requirements.html
-    install_requires=None,
+    install_requires=['lxml'],
 
     # List additional groups of dependencies here (e.g. development
     # dependencies). You can install these using the following syntax,
