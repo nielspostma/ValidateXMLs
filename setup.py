@@ -72,9 +72,9 @@ setup(
     # installed, specify them here.  If using Python 2.6 or less, then these
     # have to be included in MANIFEST.in as well.
     package_data = {
-       'my_data': ['data/testfile.txt'],
-        'xsd': ['data/xsd/BC9.xsd'],
-        'input_dir': ['data/input/35104616_49_30527.XML', 'data/input/35107864_119_40462.XML'],
+       'my_data': ['validatexmls/data/testfile.txt'],
+        'xsd': ['validatexmls/data/xsd/BC9.xsd'],
+        'input_dir': ['validatexmls/data/input/35104616_49_30527.XML', 'data/input/35107864_119_40462.XML'],
         #'error_dir': ['data/error/*'],
         #'output_dir': ['data/output/*']
     },
