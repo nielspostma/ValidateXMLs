@@ -19,7 +19,7 @@ setup(
     # Versions should comply with PEP440.  For a discussion on single-sourcing
     # the version across setup.py and the project code, see
     # https://packaging.python.org/en/latest/single_source_version.html
-    version='0.1.12',
+    version='0.1.13',
     # The project's main homepage.
     url='https://github.com/nielspostma/validatexmls',
     license='MIT',
@@ -74,13 +74,14 @@ setup(
     # If there are data files included in your packages that need to be
     # installed, specify them here.  If using Python 2.6 or less, then these
     # have to be included in MANIFEST.in as well.
-    package_data = {
-       'my_data': ['validatexmls/data/testfile.txt'],
-        'xsd': ['validatexmls/data/xsd/BC9.xsd'],
-        'input_dir': ['validatexmls/data/input/35104616_49_30527.XML', 'data/input/35107864_119_40462.XML'],
-        #'error_dir': ['data/error/*'],
-        #'output_dir': ['data/output/*']
-    },
+    # package_data = None,
+    # {
+    #    'my_data': ['validatexmls/data/testfile.txt'],
+    #     'xsd': ['validatexmls/data/xsd/BC9.xsd'],
+    #     'input_dir': ['validatexmls/data/input/35104616_49_30527.XML', 'data/input/35107864_119_40462.XML'],
+    #     #'error_dir': ['data/error/*'],
+    #     #'output_dir': ['data/output/*']
+    # },
 
 
     # Although 'package_data' is the preferred approach, in some case you may

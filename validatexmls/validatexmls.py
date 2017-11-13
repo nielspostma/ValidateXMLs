@@ -6,14 +6,13 @@ import click
 
 
 @click.command()
-@click.option('--datadir', default='data', help='Root directory of the data.')
-def main(datadir):
-    xsd_filename = os.path.join(datadir, 'xsd/BC9.xsd')
-    xsd_doc = xsdFromFile(xsd_filename)
-    inputDir = os.path.join(datadir, 'input')
-    outputDir = os.path.join(datadir, 'output')
-    errorDir = os.path.join(datadir, 'error')
-    list_files = get_files(inputDir)
+@click.option('--xsd', default='/Tools/data/xsd/BC9.xsd', help='Root directory of the data.')
+@click.option('--inputdir', default='/Tools/data/input', help='Root directory of the data.')
+@click.option('--outputdir', default='/Tools/data/output', help='Root directory of the data.')
+@click.option('--errordir', default='/Tools/data/error', help='Root directory of the data.')
+def main(xsd, inputdir, outputdir, errordir):
+    xsd_doc = xsdFromFile(xsd)
+    list_files = get_files(inputdir)
     countValid = 0
     countInvalid = 0
     countKnownError = 0
@@ -43,13 +42,13 @@ def main(datadir):
             else:
                 countInvalid += 1
                 print(xsd_doc.error_log)
-                messageTypePath = os.path.join(errorDir, str(messageType))
+                messageTypePath = os.path.join(errordir, str(messageType))
                 messageTypePath = os.path.join(messageTypePath, str(filenameFromXml))
                 copyFile(filename, messageTypePath)
         else:
             countValid += 1
             # print('Valid xml', filename)
-            messageTypePath = os.path.join(outputDir, str(messageType))
+            messageTypePath = os.path.join(outputdir, str(messageType))
             messageTypePath = os.path.join(messageTypePath, str(filenameFromXml))
             #moveFileToDir(filename, messageTypePath)
             copyFile(filename, messageTypePath)
