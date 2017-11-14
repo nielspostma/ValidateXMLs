@@ -12,6 +12,7 @@ import click
 @click.option('--errordir', default='/Tools/data/error', help='Root directory of the data.')
 def main(xsd, inputdir, outputdir, errordir):
     xsd_doc = xsdFromFile(xsd)
+    xml_doc = None
     list_files = get_files(inputdir)
     countValid = 0
     countInvalid = 0
@@ -33,7 +34,7 @@ def main(xsd, inputdir, outputdir, errordir):
 
         if xmlException or not validXML(xml_doc, xsd_doc):
             print('Invalid xml: ', filename)
-            knownError = checkKnownIssues(filename, xml_doc)
+            knownError = checkKnownIssues(filename)
             if knownError != "":
                 countKnownError += 1
                 knownErrorPath = os.path.join(errorDir, str(knownError))
@@ -56,7 +57,7 @@ def main(xsd, inputdir, outputdir, errordir):
     print("Number of files valid: ", countValid, " Invalid: ", countInvalid, " KnownError:", countKnownError)
 
 
-def checkKnownIssues(filename, xml_doc):
+def checkKnownIssues(filename):
     result = ""
     if filename.find("_75_") > 0:
         result = "LOACTION_NR"
@@ -118,9 +119,11 @@ def get_files(path):
          for filename in filenames:
              yield os.path.join(dirpath, filename)
 
+
 def xmlTreeFromFile(filename):
         xmlTree = objectify.parse(filename)
         return xmlTree
+
 
 def xsdFromFile(filename):
     #xmlschema_doc = xmlTreeFromFile(filename)
@@ -128,8 +131,10 @@ def xsdFromFile(filename):
     xsd = etree.XMLSchema(xmlschema_doc)
     return xsd
 
+
 def validXML(xml_doc, xmlschema):
     return xmlschema.validate(xml_doc)
+
 
 def copyFile(source, destination):
     try:
@@ -140,6 +145,7 @@ def copyFile(source, destination):
     except:
         shutil.copy(source, destination+'1')
 
+
 def moveFileToDir(source, destination):
     try:
         destinationDir = os.path.dirname(destination)
@@ -148,6 +154,7 @@ def moveFileToDir(source, destination):
         shutil.move(source, destination)
     except:
         shutil.move(source, destination+'1')
+
 
 def printXML(root):
     for element in root.iter():
