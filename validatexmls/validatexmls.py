@@ -11,53 +11,54 @@ import click
 @click.option('--outputdir', default='/Tools/data/output', help='Root directory of the data.')
 @click.option('--errordir', default='/Tools/data/error', help='Root directory of the data.')
 def main(xsd, inputdir, outputdir, errordir):
-    xsd_doc = xsdFromFile(xsd)
+    xsd_doc = xsd_from_file(xsd)
     xml_doc = None
     list_files = get_files(inputdir)
-    countValid = 0
-    countInvalid = 0
-    countKnownError = 0
+    count_valid = 0
+    count_invalid = 0
+    count_known_error = 0
+    message_type = None
     for filename in list_files:
         #print(filename, )
-        xmlException = False
+        xml_exception = False
         try:
-            xml_doc = xmlTreeFromFile(filename)
-            # print("validXML: ", validXML(xml_doc, xsd_doc))
-            # printXML(xml_doc)
+            xml_doc = xml_tree_from_file(filename)
+            # print("valid_xml: ", valid_xml(xml_doc, xsd_doc))
+            # print_xml(xml_doc)
             # print(xml_doc.getroot())
             DCS_MESSAGES = xml_doc.getroot()
-            filenameFromXml = getFilenameFromXml(DCS_MESSAGES, filename)
-            messageType = getMessageType(DCS_MESSAGES, filenameFromXml)
+            filename_from_xml = get_filename_from_xml(DCS_MESSAGES, filename)
+            message_type = get_message_type(DCS_MESSAGES, filename_from_xml)
         except:
             # lxml.etree.XMLSyntaxError xe:
-            xmlException = True
+            xml_exception = True
 
-        if xmlException or not validXML(xml_doc, xsd_doc):
+        if xml_exception or not valid_xml(xml_doc, xsd_doc):
             print('Invalid xml: ', filename)
-            knownError = checkKnownIssues(filename)
-            if knownError != "":
-                countKnownError += 1
-                knownErrorPath = os.path.join(errorDir, str(knownError))
-                knownErrorPath = os.path.join(knownErrorPath, str(filenameFromXml))
-                copyFile(filename, knownErrorPath)
+            known_error = check_known_issues(filename)
+            if known_error != "":
+                count_known_error += 1
+                known_error_path = os.path.join(errordir, str(known_error))
+                known_error_path = os.path.join(known_error_path, str(filename_from_xml))
+                copy_file(filename, known_error_path)
             else:
-                countInvalid += 1
+                count_invalid += 1
                 print(xsd_doc.error_log)
-                messageTypePath = os.path.join(errordir, str(messageType))
-                messageTypePath = os.path.join(messageTypePath, str(filenameFromXml))
-                copyFile(filename, messageTypePath)
+                message_type_path = os.path.join(errordir, str(message_type))
+                message_type_path = os.path.join(message_type_path, str(filename_from_xml))
+                copy_file(filename, message_type_path)
         else:
-            countValid += 1
+            count_valid += 1
             # print('Valid xml', filename)
-            messageTypePath = os.path.join(outputdir, str(messageType))
-            messageTypePath = os.path.join(messageTypePath, str(filenameFromXml))
-            #moveFileToDir(filename, messageTypePath)
-            copyFile(filename, messageTypePath)
+            message_type_path = os.path.join(outputdir, str(message_type))
+            message_type_path = os.path.join(message_type_path, str(filename_from_xml))
+            #move_file_to_dir(filename, message_type_path)
+            copy_file(filename, message_type_path)
 
-    print("Number of files valid: ", countValid, " Invalid: ", countInvalid, " KnownError:", countKnownError)
+    print("Number of files valid: ", count_valid, " Invalid: ", count_invalid, " KnownError:", count_known_error)
 
 
-def checkKnownIssues(filename):
+def check_known_issues(filename):
     result = ""
     if filename.find("_75_") > 0:
         result = "LOACTION_NR"
@@ -74,7 +75,7 @@ def checkKnownIssues(filename):
     return result
 
 
-def getMessageType(xmlobj, filename):
+def get_message_type(xmlobj, filename):
     messageType = xmlobj.find(".//MESSAGE_TYPE")
     if messageType == "":
         # print('DCS_MESSAGES.find(".//REF_XML_OUT_FILENAME")', DCS_MESSAGES.find(".//REF_XML_OUT_FILENAME"))
@@ -89,7 +90,7 @@ def getMessageType(xmlobj, filename):
     #print(" Message type: ", messageType)
     return messageType
 
-def getVehicle(xmlobj, filename):
+def get_vehicle(xmlobj, filename):
     vehicle = xmlobj.find(".//MOBILE_ID")
     if vehicle == "":
         fn = xmlobj.find(".//REF_XML_OUT_FILENAME")
@@ -106,7 +107,7 @@ def getVehicle(xmlobj, filename):
     return vehicle
 
 
-def getFilenameFromXml(xmlobj, filename):
+def get_filename_from_xml(xmlobj, filename):
     filenameFromXml = xmlobj.find(".//REF_XML_OUT_FILENAME")
     if filenameFromXml == "":
         filenameFromXml = filename
@@ -120,23 +121,23 @@ def get_files(path):
              yield os.path.join(dirpath, filename)
 
 
-def xmlTreeFromFile(filename):
+def xml_tree_from_file(filename):
         xmlTree = objectify.parse(filename)
         return xmlTree
 
 
-def xsdFromFile(filename):
-    #xmlschema_doc = xmlTreeFromFile(filename)
+def xsd_from_file(filename):
+    #xmlschema_doc = xml_tree_from_file(filename)
     xmlschema_doc = etree.parse(filename)
     xsd = etree.XMLSchema(xmlschema_doc)
     return xsd
 
 
-def validXML(xml_doc, xmlschema):
+def valid_xml(xml_doc, xmlschema):
     return xmlschema.validate(xml_doc)
 
 
-def copyFile(source, destination):
+def copy_file(source, destination):
     try:
         destinationDir = os.path.dirname(destination)
         if not os.path.exists(destinationDir):
@@ -146,7 +147,7 @@ def copyFile(source, destination):
         shutil.copy(source, destination+'1')
 
 
-def moveFileToDir(source, destination):
+def move_file_to_dir(source, destination):
     try:
         destinationDir = os.path.dirname(destination)
         if not os.path.exists(destinationDir):
@@ -156,7 +157,7 @@ def moveFileToDir(source, destination):
         shutil.move(source, destination+'1')
 
 
-def printXML(root):
+def print_xml(root):
     for element in root.iter():
         print("%s - %s" % (element.tag, element.text))
 
