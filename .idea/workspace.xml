@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="d5ea9ddf-66dc-43f9-8650-d3feae2f4500" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/setup.cfg" afterPath="$PROJECT_DIR$/setup.cfg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/setup.py" afterPath="$PROJECT_DIR$/setup.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,11 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="setup.cfg" pinned="false" current-in-tab="true">
+      <file leaf-file-name="setup.cfg" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/setup.cfg">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state relative-caret-position="225">
+              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -29,17 +31,17 @@
       <file leaf-file-name="setup.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/setup.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="53" column="38" lean-forward="false" selection-start-line="53" selection-start-column="38" selection-end-line="53" selection-end-column="38" />
+            <state relative-caret-position="413">
+              <caret line="20" column="33" lean-forward="false" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
               <folding>
                 <element signature="e#42#85#0" expanded="true" />
-                <element signature="e#946#1550#0" expanded="false" />
+                <element signature="e#987#1591#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="validatexmls.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="validatexmls.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/validatexmls/validatexmls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="2725">
@@ -57,95 +59,18 @@
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <marker date="1510672513326" expanded="true" signature="2055:2076" ph="..." />
-                <marker date="1510672513326" expanded="true" signature="2181:3387" ph="..." />
-                <marker date="1510672513326" expanded="true" signature="2292:2945" ph="..." />
-                <marker date="1510672513326" expanded="true" signature="2305:2682" ph="..." />
-                <marker date="1510672513326" expanded="true" signature="2715:2945" ph="..." />
-                <marker date="1510672513326" expanded="true" signature="2838:2915" ph="..." />
-                <marker date="1510672513326" expanded="true" signature="2955:3069" ph="..." />
-                <marker date="1510672513326" expanded="true" signature="3201:3355" ph="..." />
-                <marker date="1510672513326" expanded="true" signature="3221:3321" ph="..." />
-                <marker date="1510672513326" expanded="true" signature="3451:4369" ph="..." />
-                <marker date="1510672513326" expanded="true" signature="3456:3752" ph="&quot;&quot;&quot;Try to determine the version from the parent directory name....&quot;&quot;&quot;" />
-                <marker date="1510672513326" expanded="true" signature="3794:4161" ph="..." />
-                <marker date="1510672513326" expanded="true" signature="3884:4058" ph="..." />
-                <marker date="1510672513326" expanded="true" signature="3905:4057" ph="..." />
-                <marker date="1510672513326" expanded="true" signature="4072:4161" ph="..." />
-                <marker date="1510672513326" expanded="true" signature="4178:4298" ph="..." />
-                <marker date="1510672513326" expanded="true" signature="4455:5485" ph="..." />
-                <marker date="1510672513326" expanded="true" signature="4519:4756" ph="..." />
-                <marker date="1510672513326" expanded="true" signature="4783:5423" ph="..." />
-                <marker date="1510672513326" expanded="true" signature="4857:5405" ph="..." />
-                <marker date="1510672513326" expanded="true" signature="4915:5045" ph="..." />
-                <marker date="1510672513326" expanded="true" signature="5099:5225" ph="..." />
-                <marker date="1510672513326" expanded="true" signature="5279:5405" ph="..." />
-                <marker date="1510672513326" expanded="true" signature="5591:8254" ph="..." />
-                <marker date="1510672513326" expanded="true" signature="5779:6238" ph="..." />
-                <marker date="1510672513326" expanded="true" signature="5788:6169" ph="..." />
-                <marker date="1510672513326" expanded="true" signature="6321:6475" ph="..." />
-                <marker date="1510672513326" expanded="true" signature="6549:6682" ph="..." />
-                <marker date="1510672513326" expanded="true" signature="6783:7444" ph="..." />
-                <marker date="1510672513326" expanded="true" signature="6792:7291" ph="..." />
-                <marker date="1510672513326" expanded="true" signature="7547:7927" ph="..." />
-                <marker date="1510672513326" expanded="true" signature="7641:7927" ph="..." />
-                <marker date="1510672513326" expanded="true" signature="7764:7926" ph="..." />
-                <marker date="1510672513326" expanded="true" signature="8103:8253" ph="..." />
-                <marker date="1510672513326" expanded="true" signature="8381:11796" ph="..." />
-                <marker date="1510672513326" expanded="true" signature="8386:8675" ph="&quot;&quot;&quot;Get version from 'git describe' in the root of the source tree....&quot;&quot;&quot;" />
-                <marker date="1510672513326" expanded="true" signature="8895:9050" ph="..." />
-                <marker date="1510672513326" expanded="true" signature="9056:9188" ph="..." />
-                <marker date="1510672513326" expanded="true" signature="9231:9399" ph="..." />
-                <marker date="1510672513326" expanded="true" signature="9924:10027" ph="..." />
-                <marker date="1510672513326" expanded="true" signature="10311:11253" ph="..." />
-                <marker date="1510672513326" expanded="true" signature="10420:10630" ph="..." />
-                <marker date="1510672513326" expanded="true" signature="10724:11020" ph="..." />
-                <marker date="1510672513326" expanded="true" signature="10748:10864" ph="..." />
-                <marker date="1510672513326" expanded="true" signature="11264:11516" ph="..." />
-                <marker date="1510672513326" expanded="true" signature="11823:11969" ph="..." />
-                <marker date="1510672513326" expanded="true" signature="11998:12851" ph="..." />
-                <marker date="1510672513326" expanded="true" signature="12003:12309" ph="&quot;&quot;&quot;Build up version string, with post-release &quot;local version identifier&quot;....&quot;&quot;&quot;" />
-                <marker date="1510672513326" expanded="true" signature="12339:12616" ph="..." />
-                <marker date="1510672513326" expanded="true" signature="12430:12616" ph="..." />
-                <marker date="1510672513326" expanded="true" signature="12626:12831" ph="..." />
-                <marker date="1510672513326" expanded="true" signature="12692:12769" ph="..." />
-                <marker date="1510672513326" expanded="true" signature="12884:13257" ph="..." />
-                <marker date="1510672513326" expanded="true" signature="12889:12988" ph="&quot;&quot;&quot;TAG[.post.devDISTANCE] -- No -dirty....&quot;&quot;&quot;" />
-                <marker date="1510672513326" expanded="true" signature="13018:13149" ph="..." />
-                <marker date="1510672513326" expanded="true" signature="13159:13237" ph="..." />
-                <marker date="1510672513326" expanded="true" signature="13291:14139" ph="..." />
-                <marker date="1510672513326" expanded="true" signature="13296:13594" ph="&quot;&quot;&quot;TAG[.postDISTANCE[.dev0]+gHEX] ....&quot;&quot;&quot;" />
-                <marker date="1510672513326" expanded="true" signature="13624:13930" ph="..." />
-                <marker date="1510672513326" expanded="true" signature="13715:13930" ph="..." />
-                <marker date="1510672513326" expanded="true" signature="13940:14119" ph="..." />
-                <marker date="1510672513326" expanded="true" signature="14172:14709" ph="..." />
-                <marker date="1510672513326" expanded="true" signature="14177:14301" ph="&quot;&quot;&quot;TAG[.postDISTANCE[.dev0]] ....&quot;&quot;&quot;" />
-                <marker date="1510672513326" expanded="true" signature="14331:14545" ph="..." />
-                <marker date="1510672513326" expanded="true" signature="14422:14545" ph="..." />
-                <marker date="1510672513326" expanded="true" signature="14555:14689" ph="..." />
-                <marker date="1510672513326" expanded="true" signature="14744:15223" ph="..." />
-                <marker date="1510672513326" expanded="true" signature="14749:14906" ph="&quot;&quot;&quot;TAG[-DISTANCE-gHEX][-dirty]....&quot;&quot;&quot;" />
-                <marker date="1510672513326" expanded="true" signature="14936:15082" ph="..." />
-                <marker date="1510672513326" expanded="true" signature="15092:15150" ph="..." />
-                <marker date="1510672513326" expanded="true" signature="15263:15751" ph="..." />
-                <marker date="1510672513326" expanded="true" signature="15268:15469" ph="&quot;&quot;&quot;TAG-DISTANCE-gHEX[-dirty]....&quot;&quot;&quot;" />
-                <marker date="1510672513326" expanded="true" signature="15499:15610" ph="..." />
-                <marker date="1510672513326" expanded="true" signature="15620:15678" ph="..." />
-                <marker date="1510672513326" expanded="true" signature="15780:16849" ph="..." />
-                <marker date="1510672513326" expanded="true" signature="15872:16068" ph="..." />
-                <marker date="1510672513326" expanded="true" signature="15889:16067" ph="..." />
-                <marker date="1510672513326" expanded="true" signature="16701:16848" ph="..." />
-                <marker date="1510672513326" expanded="true" signature="16871:18463" ph="..." />
-                <marker date="1510672513326" expanded="true" signature="16948:17212" ph="..." />
-                <marker date="1510672513326" expanded="true" signature="17272:17397" ph="..." />
-                <marker date="1510672513326" expanded="true" signature="17446:17779" ph="..." />
-                <marker date="1510672513326" expanded="true" signature="17497:17686" ph="..." />
-                <marker date="1510672513326" expanded="true" signature="17801:17990" ph="..." />
-                <marker date="1510672513326" expanded="true" signature="17818:17989" ph="..." />
-                <marker date="1510672513326" expanded="true" signature="18000:18109" ph="..." />
-                <marker date="1510672513326" expanded="true" signature="18158:18271" ph="..." />
-                <marker date="1510672513326" expanded="true" signature="18324:18462" ph="..." />
+                <element signature="e#516#528#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="versioneer.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/versioneer.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-750">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -154,7 +79,7 @@
         <entry file="file://$PROJECT_DIR$/validatexmls/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="475">
-              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -222,10 +147,10 @@
         <option value="$PROJECT_DIR$/MANIFEST.in" />
         <option value="$PROJECT_DIR$/make.cmd" />
         <option value="$PROJECT_DIR$/validatexmls/validatexmls.py" />
-        <option value="$PROJECT_DIR$/setup.py" />
         <option value="$PROJECT_DIR$/validatexmls/_version.py" />
         <option value="$PROJECT_DIR$/versioneer.py" />
         <option value="$PROJECT_DIR$/setup.cfg" />
+        <option value="$PROJECT_DIR$/setup.py" />
       </list>
     </option>
   </component>
@@ -729,7 +654,14 @@
       <option name="project" value="LOCAL" />
       <updated>1510672519689</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="1.0">
+      <created>1510672775258</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1510672775258</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -772,7 +704,8 @@
     <MESSAGE value="update 3" />
     <MESSAGE value="update 4" />
     <MESSAGE value="update 5" />
-    <option name="LAST_COMMIT_MESSAGE" value="update 5" />
+    <MESSAGE value="1.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.0" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -936,11 +869,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/validatexmls/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/validatexmls/_version.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#516#528#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/versioneer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="1614" column="33" lean-forward="true" selection-start-line="1614" selection-start-column="33" selection-end-line="1614" selection-end-column="33" />
+        <state relative-caret-position="-750">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setup.cfg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="20" column="33" lean-forward="false" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+          <folding>
+            <element signature="e#42#85#0" expanded="true" />
+            <element signature="e#987#1591#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -951,130 +921,6 @@
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/validatexmls/_version.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1510672513326" expanded="true" signature="2055:2076" ph="..." />
-            <marker date="1510672513326" expanded="true" signature="2181:3387" ph="..." />
-            <marker date="1510672513326" expanded="true" signature="2292:2945" ph="..." />
-            <marker date="1510672513326" expanded="true" signature="2305:2682" ph="..." />
-            <marker date="1510672513326" expanded="true" signature="2715:2945" ph="..." />
-            <marker date="1510672513326" expanded="true" signature="2838:2915" ph="..." />
-            <marker date="1510672513326" expanded="true" signature="2955:3069" ph="..." />
-            <marker date="1510672513326" expanded="true" signature="3201:3355" ph="..." />
-            <marker date="1510672513326" expanded="true" signature="3221:3321" ph="..." />
-            <marker date="1510672513326" expanded="true" signature="3451:4369" ph="..." />
-            <marker date="1510672513326" expanded="true" signature="3456:3752" ph="&quot;&quot;&quot;Try to determine the version from the parent directory name....&quot;&quot;&quot;" />
-            <marker date="1510672513326" expanded="true" signature="3794:4161" ph="..." />
-            <marker date="1510672513326" expanded="true" signature="3884:4058" ph="..." />
-            <marker date="1510672513326" expanded="true" signature="3905:4057" ph="..." />
-            <marker date="1510672513326" expanded="true" signature="4072:4161" ph="..." />
-            <marker date="1510672513326" expanded="true" signature="4178:4298" ph="..." />
-            <marker date="1510672513326" expanded="true" signature="4455:5485" ph="..." />
-            <marker date="1510672513326" expanded="true" signature="4519:4756" ph="..." />
-            <marker date="1510672513326" expanded="true" signature="4783:5423" ph="..." />
-            <marker date="1510672513326" expanded="true" signature="4857:5405" ph="..." />
-            <marker date="1510672513326" expanded="true" signature="4915:5045" ph="..." />
-            <marker date="1510672513326" expanded="true" signature="5099:5225" ph="..." />
-            <marker date="1510672513326" expanded="true" signature="5279:5405" ph="..." />
-            <marker date="1510672513326" expanded="true" signature="5591:8254" ph="..." />
-            <marker date="1510672513326" expanded="true" signature="5779:6238" ph="..." />
-            <marker date="1510672513326" expanded="true" signature="5788:6169" ph="..." />
-            <marker date="1510672513326" expanded="true" signature="6321:6475" ph="..." />
-            <marker date="1510672513326" expanded="true" signature="6549:6682" ph="..." />
-            <marker date="1510672513326" expanded="true" signature="6783:7444" ph="..." />
-            <marker date="1510672513326" expanded="true" signature="6792:7291" ph="..." />
-            <marker date="1510672513326" expanded="true" signature="7547:7927" ph="..." />
-            <marker date="1510672513326" expanded="true" signature="7641:7927" ph="..." />
-            <marker date="1510672513326" expanded="true" signature="7764:7926" ph="..." />
-            <marker date="1510672513326" expanded="true" signature="8103:8253" ph="..." />
-            <marker date="1510672513326" expanded="true" signature="8381:11796" ph="..." />
-            <marker date="1510672513326" expanded="true" signature="8386:8675" ph="&quot;&quot;&quot;Get version from 'git describe' in the root of the source tree....&quot;&quot;&quot;" />
-            <marker date="1510672513326" expanded="true" signature="8895:9050" ph="..." />
-            <marker date="1510672513326" expanded="true" signature="9056:9188" ph="..." />
-            <marker date="1510672513326" expanded="true" signature="9231:9399" ph="..." />
-            <marker date="1510672513326" expanded="true" signature="9924:10027" ph="..." />
-            <marker date="1510672513326" expanded="true" signature="10311:11253" ph="..." />
-            <marker date="1510672513326" expanded="true" signature="10420:10630" ph="..." />
-            <marker date="1510672513326" expanded="true" signature="10724:11020" ph="..." />
-            <marker date="1510672513326" expanded="true" signature="10748:10864" ph="..." />
-            <marker date="1510672513326" expanded="true" signature="11264:11516" ph="..." />
-            <marker date="1510672513326" expanded="true" signature="11823:11969" ph="..." />
-            <marker date="1510672513326" expanded="true" signature="11998:12851" ph="..." />
-            <marker date="1510672513326" expanded="true" signature="12003:12309" ph="&quot;&quot;&quot;Build up version string, with post-release &quot;local version identifier&quot;....&quot;&quot;&quot;" />
-            <marker date="1510672513326" expanded="true" signature="12339:12616" ph="..." />
-            <marker date="1510672513326" expanded="true" signature="12430:12616" ph="..." />
-            <marker date="1510672513326" expanded="true" signature="12626:12831" ph="..." />
-            <marker date="1510672513326" expanded="true" signature="12692:12769" ph="..." />
-            <marker date="1510672513326" expanded="true" signature="12884:13257" ph="..." />
-            <marker date="1510672513326" expanded="true" signature="12889:12988" ph="&quot;&quot;&quot;TAG[.post.devDISTANCE] -- No -dirty....&quot;&quot;&quot;" />
-            <marker date="1510672513326" expanded="true" signature="13018:13149" ph="..." />
-            <marker date="1510672513326" expanded="true" signature="13159:13237" ph="..." />
-            <marker date="1510672513326" expanded="true" signature="13291:14139" ph="..." />
-            <marker date="1510672513326" expanded="true" signature="13296:13594" ph="&quot;&quot;&quot;TAG[.postDISTANCE[.dev0]+gHEX] ....&quot;&quot;&quot;" />
-            <marker date="1510672513326" expanded="true" signature="13624:13930" ph="..." />
-            <marker date="1510672513326" expanded="true" signature="13715:13930" ph="..." />
-            <marker date="1510672513326" expanded="true" signature="13940:14119" ph="..." />
-            <marker date="1510672513326" expanded="true" signature="14172:14709" ph="..." />
-            <marker date="1510672513326" expanded="true" signature="14177:14301" ph="&quot;&quot;&quot;TAG[.postDISTANCE[.dev0]] ....&quot;&quot;&quot;" />
-            <marker date="1510672513326" expanded="true" signature="14331:14545" ph="..." />
-            <marker date="1510672513326" expanded="true" signature="14422:14545" ph="..." />
-            <marker date="1510672513326" expanded="true" signature="14555:14689" ph="..." />
-            <marker date="1510672513326" expanded="true" signature="14744:15223" ph="..." />
-            <marker date="1510672513326" expanded="true" signature="14749:14906" ph="&quot;&quot;&quot;TAG[-DISTANCE-gHEX][-dirty]....&quot;&quot;&quot;" />
-            <marker date="1510672513326" expanded="true" signature="14936:15082" ph="..." />
-            <marker date="1510672513326" expanded="true" signature="15092:15150" ph="..." />
-            <marker date="1510672513326" expanded="true" signature="15263:15751" ph="..." />
-            <marker date="1510672513326" expanded="true" signature="15268:15469" ph="&quot;&quot;&quot;TAG-DISTANCE-gHEX[-dirty]....&quot;&quot;&quot;" />
-            <marker date="1510672513326" expanded="true" signature="15499:15610" ph="..." />
-            <marker date="1510672513326" expanded="true" signature="15620:15678" ph="..." />
-            <marker date="1510672513326" expanded="true" signature="15780:16849" ph="..." />
-            <marker date="1510672513326" expanded="true" signature="15872:16068" ph="..." />
-            <marker date="1510672513326" expanded="true" signature="15889:16067" ph="..." />
-            <marker date="1510672513326" expanded="true" signature="16701:16848" ph="..." />
-            <marker date="1510672513326" expanded="true" signature="16871:18463" ph="..." />
-            <marker date="1510672513326" expanded="true" signature="16948:17212" ph="..." />
-            <marker date="1510672513326" expanded="true" signature="17272:17397" ph="..." />
-            <marker date="1510672513326" expanded="true" signature="17446:17779" ph="..." />
-            <marker date="1510672513326" expanded="true" signature="17497:17686" ph="..." />
-            <marker date="1510672513326" expanded="true" signature="17801:17990" ph="..." />
-            <marker date="1510672513326" expanded="true" signature="17818:17989" ph="..." />
-            <marker date="1510672513326" expanded="true" signature="18000:18109" ph="..." />
-            <marker date="1510672513326" expanded="true" signature="18158:18271" ph="..." />
-            <marker date="1510672513326" expanded="true" signature="18324:18462" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/validatexmls/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/setup.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="53" column="38" lean-forward="false" selection-start-line="53" selection-start-column="38" selection-end-line="53" selection-end-column="38" />
-          <folding>
-            <element signature="e#42#85#0" expanded="true" />
-            <element signature="e#946#1550#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/setup.cfg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>

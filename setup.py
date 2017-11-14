@@ -1,8 +1,10 @@
 # Always prefer setuptools over distutils
-from setuptools import setup, find_packages
 # To use a consistent encoding
 from codecs import open
 from os import path
+
+from setuptools import setup, find_packages
+
 import versioneer
 
 here = path.abspath(path.dirname(__file__))
@@ -23,6 +25,9 @@ setup(
     # version='0.1.16',
     version=versioneer.get_version(),
     cmdclass=versioneer.get_cmdclass(),
+    # parentdir_prefix = validatexmls-
+
+
     # The project's main homepage.
     url='https://github.com/nielspostma/validatexmls',
     license='MIT',
