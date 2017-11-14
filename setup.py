@@ -3,6 +3,7 @@ from setuptools import setup, find_packages
 # To use a consistent encoding
 from codecs import open
 from os import path
+import versioneer
 
 here = path.abspath(path.dirname(__file__))
 
@@ -19,7 +20,9 @@ setup(
     # Versions should comply with PEP440.  For a discussion on single-sourcing
     # the version across setup.py and the project code, see
     # https://packaging.python.org/en/latest/single_source_version.html
-    version='0.1.16',
+    # version='0.1.16',
+    version=versioneer.get_version(),
+    cmdclass=versioneer.get_cmdclass(),
     # The project's main homepage.
     url='https://github.com/nielspostma/validatexmls',
     license='MIT',

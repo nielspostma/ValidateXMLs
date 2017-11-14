@@ -19,7 +19,7 @@ def main(xsd, inputdir, outputdir, errordir):
     count_known_error = 0
     message_type = None
     for filename in list_files:
-        #print(filename, )
+        # print(filename, )
         xml_exception = False
         try:
             xml_doc = xml_tree_from_file(filename)
@@ -52,7 +52,7 @@ def main(xsd, inputdir, outputdir, errordir):
             # print('Valid xml', filename)
             message_type_path = os.path.join(outputdir, str(message_type))
             message_type_path = os.path.join(message_type_path, str(filename_from_xml))
-            #move_file_to_dir(filename, message_type_path)
+            # move_file_to_dir(filename, message_type_path)
             copy_file(filename, message_type_path)
 
     print("Number of files valid: ", count_valid, " Invalid: ", count_invalid, " KnownError:", count_known_error)
@@ -75,25 +75,25 @@ def check_known_issues(filename):
     return result
 
 
-def get_message_type(xmlobj, filename):
-    messageType = xmlobj.find(".//MESSAGE_TYPE")
-    if messageType == "":
+def get_message_type(xml_obj, filename):
+    message_type = xml_obj.find(".//MESSAGE_TYPE")
+    if message_type == "":
         # print('DCS_MESSAGES.find(".//REF_XML_OUT_FILENAME")', DCS_MESSAGES.find(".//REF_XML_OUT_FILENAME"))
-        fn = xmlobj.find(".//REF_XML_OUT_FILENAME")
+        fn = xml_obj.find(".//REF_XML_OUT_FILENAME")
         list = fn.split("_")
         if list.__len__() > 1:
-            messageType = list[1]
-    if messageType == "":
+            message_type = list[1]
+    if message_type == "":
         list = filename.split("_")
         if list.__len__() > 1:
-            messageType = list[1]
-    #print(" Message type: ", messageType)
-    return messageType
+            message_type = list[1]
+    # print(" Message type: ", message_type)
+    return message_type
 
-def get_vehicle(xmlobj, filename):
-    vehicle = xmlobj.find(".//MOBILE_ID")
+def get_vehicle(xml_obj, filename):
+    vehicle = xml_obj.find(".//MOBILE_ID")
     if vehicle == "":
-        fn = xmlobj.find(".//REF_XML_OUT_FILENAME")
+        fn = xml_obj.find(".//REF_XML_OUT_FILENAME")
         vehicle = filename[-9:-4]
         # list = filename.split("_.")
         # if list.__len__() > 1:
