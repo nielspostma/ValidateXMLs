@@ -17,3 +17,13 @@
 # s = get_data('input/35104616_49_30527.XML')
 # print(s, os.path.exists(s))
 # pass
+
+from ._version import get_versions
+
+__version__ = get_versions()['version']
+del get_versions
+
+from ._version import get_versions
+
+__version__ = get_versions()['version']
+del get_versions
