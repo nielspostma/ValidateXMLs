@@ -1,15 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d5ea9ddf-66dc-43f9-8650-d3feae2f4500" name="Default" comment="update 5">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/validatexmls/_version.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/versioneer.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitattributes" afterPath="$PROJECT_DIR$/.gitattributes" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+    <list default="true" id="d5ea9ddf-66dc-43f9-8650-d3feae2f4500" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MANIFEST.in" afterPath="$PROJECT_DIR$/MANIFEST.in" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/setup.cfg" afterPath="$PROJECT_DIR$/setup.cfg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/validatexmls/__init__.py" afterPath="$PROJECT_DIR$/validatexmls/__init__.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -64,94 +57,94 @@
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <marker date="1510672411926" expanded="true" signature="2055:2075" ph="..." />
-                <marker date="1510672411926" expanded="true" signature="2180:3386" ph="..." />
-                <marker date="1510672411926" expanded="true" signature="2291:2944" ph="..." />
-                <marker date="1510672411926" expanded="true" signature="2304:2681" ph="..." />
-                <marker date="1510672411926" expanded="true" signature="2714:2944" ph="..." />
-                <marker date="1510672411926" expanded="true" signature="2837:2914" ph="..." />
-                <marker date="1510672411926" expanded="true" signature="2954:3068" ph="..." />
-                <marker date="1510672411926" expanded="true" signature="3200:3354" ph="..." />
-                <marker date="1510672411926" expanded="true" signature="3220:3320" ph="..." />
-                <marker date="1510672411926" expanded="true" signature="3450:4368" ph="..." />
-                <marker date="1510672411926" expanded="true" signature="3455:3751" ph="&quot;&quot;&quot;Try to determine the version from the parent directory name....&quot;&quot;&quot;" />
-                <marker date="1510672411926" expanded="true" signature="3793:4160" ph="..." />
-                <marker date="1510672411926" expanded="true" signature="3883:4057" ph="..." />
-                <marker date="1510672411926" expanded="true" signature="3904:4056" ph="..." />
-                <marker date="1510672411926" expanded="true" signature="4071:4160" ph="..." />
-                <marker date="1510672411926" expanded="true" signature="4177:4297" ph="..." />
-                <marker date="1510672411926" expanded="true" signature="4454:5484" ph="..." />
-                <marker date="1510672411926" expanded="true" signature="4518:4755" ph="..." />
-                <marker date="1510672411926" expanded="true" signature="4782:5422" ph="..." />
-                <marker date="1510672411926" expanded="true" signature="4856:5404" ph="..." />
-                <marker date="1510672411926" expanded="true" signature="4914:5044" ph="..." />
-                <marker date="1510672411926" expanded="true" signature="5098:5224" ph="..." />
-                <marker date="1510672411926" expanded="true" signature="5278:5404" ph="..." />
-                <marker date="1510672411926" expanded="true" signature="5590:8253" ph="..." />
-                <marker date="1510672411926" expanded="true" signature="5778:6237" ph="..." />
-                <marker date="1510672411926" expanded="true" signature="5787:6168" ph="..." />
-                <marker date="1510672411926" expanded="true" signature="6320:6474" ph="..." />
-                <marker date="1510672411926" expanded="true" signature="6548:6681" ph="..." />
-                <marker date="1510672411926" expanded="true" signature="6782:7443" ph="..." />
-                <marker date="1510672411926" expanded="true" signature="6791:7290" ph="..." />
-                <marker date="1510672411926" expanded="true" signature="7546:7926" ph="..." />
-                <marker date="1510672411926" expanded="true" signature="7640:7926" ph="..." />
-                <marker date="1510672411926" expanded="true" signature="7763:7925" ph="..." />
-                <marker date="1510672411926" expanded="true" signature="8102:8252" ph="..." />
-                <marker date="1510672411926" expanded="true" signature="8380:11795" ph="..." />
-                <marker date="1510672411926" expanded="true" signature="8385:8674" ph="&quot;&quot;&quot;Get version from 'git describe' in the root of the source tree....&quot;&quot;&quot;" />
-                <marker date="1510672411926" expanded="true" signature="8894:9049" ph="..." />
-                <marker date="1510672411926" expanded="true" signature="9055:9187" ph="..." />
-                <marker date="1510672411926" expanded="true" signature="9230:9398" ph="..." />
-                <marker date="1510672411926" expanded="true" signature="9923:10026" ph="..." />
-                <marker date="1510672411926" expanded="true" signature="10310:11252" ph="..." />
-                <marker date="1510672411926" expanded="true" signature="10419:10629" ph="..." />
-                <marker date="1510672411926" expanded="true" signature="10723:11019" ph="..." />
-                <marker date="1510672411926" expanded="true" signature="10747:10863" ph="..." />
-                <marker date="1510672411926" expanded="true" signature="11263:11515" ph="..." />
-                <marker date="1510672411926" expanded="true" signature="11822:11968" ph="..." />
-                <marker date="1510672411926" expanded="true" signature="11997:12850" ph="..." />
-                <marker date="1510672411926" expanded="true" signature="12002:12308" ph="&quot;&quot;&quot;Build up version string, with post-release &quot;local version identifier&quot;....&quot;&quot;&quot;" />
-                <marker date="1510672411926" expanded="true" signature="12338:12615" ph="..." />
-                <marker date="1510672411926" expanded="true" signature="12429:12615" ph="..." />
-                <marker date="1510672411926" expanded="true" signature="12625:12830" ph="..." />
-                <marker date="1510672411926" expanded="true" signature="12691:12768" ph="..." />
-                <marker date="1510672411926" expanded="true" signature="12883:13256" ph="..." />
-                <marker date="1510672411926" expanded="true" signature="12888:12987" ph="&quot;&quot;&quot;TAG[.post.devDISTANCE] -- No -dirty....&quot;&quot;&quot;" />
-                <marker date="1510672411926" expanded="true" signature="13017:13148" ph="..." />
-                <marker date="1510672411926" expanded="true" signature="13158:13236" ph="..." />
-                <marker date="1510672411926" expanded="true" signature="13290:14138" ph="..." />
-                <marker date="1510672411926" expanded="true" signature="13295:13593" ph="&quot;&quot;&quot;TAG[.postDISTANCE[.dev0]+gHEX] ....&quot;&quot;&quot;" />
-                <marker date="1510672411926" expanded="true" signature="13623:13929" ph="..." />
-                <marker date="1510672411926" expanded="true" signature="13714:13929" ph="..." />
-                <marker date="1510672411926" expanded="true" signature="13939:14118" ph="..." />
-                <marker date="1510672411926" expanded="true" signature="14171:14708" ph="..." />
-                <marker date="1510672411926" expanded="true" signature="14176:14300" ph="&quot;&quot;&quot;TAG[.postDISTANCE[.dev0]] ....&quot;&quot;&quot;" />
-                <marker date="1510672411926" expanded="true" signature="14330:14544" ph="..." />
-                <marker date="1510672411926" expanded="true" signature="14421:14544" ph="..." />
-                <marker date="1510672411926" expanded="true" signature="14554:14688" ph="..." />
-                <marker date="1510672411926" expanded="true" signature="14743:15222" ph="..." />
-                <marker date="1510672411926" expanded="true" signature="14748:14905" ph="&quot;&quot;&quot;TAG[-DISTANCE-gHEX][-dirty]....&quot;&quot;&quot;" />
-                <marker date="1510672411926" expanded="true" signature="14935:15081" ph="..." />
-                <marker date="1510672411926" expanded="true" signature="15091:15149" ph="..." />
-                <marker date="1510672411926" expanded="true" signature="15262:15750" ph="..." />
-                <marker date="1510672411926" expanded="true" signature="15267:15468" ph="&quot;&quot;&quot;TAG-DISTANCE-gHEX[-dirty]....&quot;&quot;&quot;" />
-                <marker date="1510672411926" expanded="true" signature="15498:15609" ph="..." />
-                <marker date="1510672411926" expanded="true" signature="15619:15677" ph="..." />
-                <marker date="1510672411926" expanded="true" signature="15779:16848" ph="..." />
-                <marker date="1510672411926" expanded="true" signature="15871:16067" ph="..." />
-                <marker date="1510672411926" expanded="true" signature="15888:16066" ph="..." />
-                <marker date="1510672411926" expanded="true" signature="16700:16847" ph="..." />
-                <marker date="1510672411926" expanded="true" signature="16870:18462" ph="..." />
-                <marker date="1510672411926" expanded="true" signature="16947:17211" ph="..." />
-                <marker date="1510672411926" expanded="true" signature="17271:17396" ph="..." />
-                <marker date="1510672411926" expanded="true" signature="17445:17778" ph="..." />
-                <marker date="1510672411926" expanded="true" signature="17496:17685" ph="..." />
-                <marker date="1510672411926" expanded="true" signature="17800:17989" ph="..." />
-                <marker date="1510672411926" expanded="true" signature="17817:17988" ph="..." />
-                <marker date="1510672411926" expanded="true" signature="17999:18108" ph="..." />
-                <marker date="1510672411926" expanded="true" signature="18157:18270" ph="..." />
-                <marker date="1510672411926" expanded="true" signature="18323:18461" ph="..." />
+                <marker date="1510672513326" expanded="true" signature="2055:2076" ph="..." />
+                <marker date="1510672513326" expanded="true" signature="2181:3387" ph="..." />
+                <marker date="1510672513326" expanded="true" signature="2292:2945" ph="..." />
+                <marker date="1510672513326" expanded="true" signature="2305:2682" ph="..." />
+                <marker date="1510672513326" expanded="true" signature="2715:2945" ph="..." />
+                <marker date="1510672513326" expanded="true" signature="2838:2915" ph="..." />
+                <marker date="1510672513326" expanded="true" signature="2955:3069" ph="..." />
+                <marker date="1510672513326" expanded="true" signature="3201:3355" ph="..." />
+                <marker date="1510672513326" expanded="true" signature="3221:3321" ph="..." />
+                <marker date="1510672513326" expanded="true" signature="3451:4369" ph="..." />
+                <marker date="1510672513326" expanded="true" signature="3456:3752" ph="&quot;&quot;&quot;Try to determine the version from the parent directory name....&quot;&quot;&quot;" />
+                <marker date="1510672513326" expanded="true" signature="3794:4161" ph="..." />
+                <marker date="1510672513326" expanded="true" signature="3884:4058" ph="..." />
+                <marker date="1510672513326" expanded="true" signature="3905:4057" ph="..." />
+                <marker date="1510672513326" expanded="true" signature="4072:4161" ph="..." />
+                <marker date="1510672513326" expanded="true" signature="4178:4298" ph="..." />
+                <marker date="1510672513326" expanded="true" signature="4455:5485" ph="..." />
+                <marker date="1510672513326" expanded="true" signature="4519:4756" ph="..." />
+                <marker date="1510672513326" expanded="true" signature="4783:5423" ph="..." />
+                <marker date="1510672513326" expanded="true" signature="4857:5405" ph="..." />
+                <marker date="1510672513326" expanded="true" signature="4915:5045" ph="..." />
+                <marker date="1510672513326" expanded="true" signature="5099:5225" ph="..." />
+                <marker date="1510672513326" expanded="true" signature="5279:5405" ph="..." />
+                <marker date="1510672513326" expanded="true" signature="5591:8254" ph="..." />
+                <marker date="1510672513326" expanded="true" signature="5779:6238" ph="..." />
+                <marker date="1510672513326" expanded="true" signature="5788:6169" ph="..." />
+                <marker date="1510672513326" expanded="true" signature="6321:6475" ph="..." />
+                <marker date="1510672513326" expanded="true" signature="6549:6682" ph="..." />
+                <marker date="1510672513326" expanded="true" signature="6783:7444" ph="..." />
+                <marker date="1510672513326" expanded="true" signature="6792:7291" ph="..." />
+                <marker date="1510672513326" expanded="true" signature="7547:7927" ph="..." />
+                <marker date="1510672513326" expanded="true" signature="7641:7927" ph="..." />
+                <marker date="1510672513326" expanded="true" signature="7764:7926" ph="..." />
+                <marker date="1510672513326" expanded="true" signature="8103:8253" ph="..." />
+                <marker date="1510672513326" expanded="true" signature="8381:11796" ph="..." />
+                <marker date="1510672513326" expanded="true" signature="8386:8675" ph="&quot;&quot;&quot;Get version from 'git describe' in the root of the source tree....&quot;&quot;&quot;" />
+                <marker date="1510672513326" expanded="true" signature="8895:9050" ph="..." />
+                <marker date="1510672513326" expanded="true" signature="9056:9188" ph="..." />
+                <marker date="1510672513326" expanded="true" signature="9231:9399" ph="..." />
+                <marker date="1510672513326" expanded="true" signature="9924:10027" ph="..." />
+                <marker date="1510672513326" expanded="true" signature="10311:11253" ph="..." />
+                <marker date="1510672513326" expanded="true" signature="10420:10630" ph="..." />
+                <marker date="1510672513326" expanded="true" signature="10724:11020" ph="..." />
+                <marker date="1510672513326" expanded="true" signature="10748:10864" ph="..." />
+                <marker date="1510672513326" expanded="true" signature="11264:11516" ph="..." />
+                <marker date="1510672513326" expanded="true" signature="11823:11969" ph="..." />
+                <marker date="1510672513326" expanded="true" signature="11998:12851" ph="..." />
+                <marker date="1510672513326" expanded="true" signature="12003:12309" ph="&quot;&quot;&quot;Build up version string, with post-release &quot;local version identifier&quot;....&quot;&quot;&quot;" />
+                <marker date="1510672513326" expanded="true" signature="12339:12616" ph="..." />
+                <marker date="1510672513326" expanded="true" signature="12430:12616" ph="..." />
+                <marker date="1510672513326" expanded="true" signature="12626:12831" ph="..." />
+                <marker date="1510672513326" expanded="true" signature="12692:12769" ph="..." />
+                <marker date="1510672513326" expanded="true" signature="12884:13257" ph="..." />
+                <marker date="1510672513326" expanded="true" signature="12889:12988" ph="&quot;&quot;&quot;TAG[.post.devDISTANCE] -- No -dirty....&quot;&quot;&quot;" />
+                <marker date="1510672513326" expanded="true" signature="13018:13149" ph="..." />
+                <marker date="1510672513326" expanded="true" signature="13159:13237" ph="..." />
+                <marker date="1510672513326" expanded="true" signature="13291:14139" ph="..." />
+                <marker date="1510672513326" expanded="true" signature="13296:13594" ph="&quot;&quot;&quot;TAG[.postDISTANCE[.dev0]+gHEX] ....&quot;&quot;&quot;" />
+                <marker date="1510672513326" expanded="true" signature="13624:13930" ph="..." />
+                <marker date="1510672513326" expanded="true" signature="13715:13930" ph="..." />
+                <marker date="1510672513326" expanded="true" signature="13940:14119" ph="..." />
+                <marker date="1510672513326" expanded="true" signature="14172:14709" ph="..." />
+                <marker date="1510672513326" expanded="true" signature="14177:14301" ph="&quot;&quot;&quot;TAG[.postDISTANCE[.dev0]] ....&quot;&quot;&quot;" />
+                <marker date="1510672513326" expanded="true" signature="14331:14545" ph="..." />
+                <marker date="1510672513326" expanded="true" signature="14422:14545" ph="..." />
+                <marker date="1510672513326" expanded="true" signature="14555:14689" ph="..." />
+                <marker date="1510672513326" expanded="true" signature="14744:15223" ph="..." />
+                <marker date="1510672513326" expanded="true" signature="14749:14906" ph="&quot;&quot;&quot;TAG[-DISTANCE-gHEX][-dirty]....&quot;&quot;&quot;" />
+                <marker date="1510672513326" expanded="true" signature="14936:15082" ph="..." />
+                <marker date="1510672513326" expanded="true" signature="15092:15150" ph="..." />
+                <marker date="1510672513326" expanded="true" signature="15263:15751" ph="..." />
+                <marker date="1510672513326" expanded="true" signature="15268:15469" ph="&quot;&quot;&quot;TAG-DISTANCE-gHEX[-dirty]....&quot;&quot;&quot;" />
+                <marker date="1510672513326" expanded="true" signature="15499:15610" ph="..." />
+                <marker date="1510672513326" expanded="true" signature="15620:15678" ph="..." />
+                <marker date="1510672513326" expanded="true" signature="15780:16849" ph="..." />
+                <marker date="1510672513326" expanded="true" signature="15872:16068" ph="..." />
+                <marker date="1510672513326" expanded="true" signature="15889:16067" ph="..." />
+                <marker date="1510672513326" expanded="true" signature="16701:16848" ph="..." />
+                <marker date="1510672513326" expanded="true" signature="16871:18463" ph="..." />
+                <marker date="1510672513326" expanded="true" signature="16948:17212" ph="..." />
+                <marker date="1510672513326" expanded="true" signature="17272:17397" ph="..." />
+                <marker date="1510672513326" expanded="true" signature="17446:17779" ph="..." />
+                <marker date="1510672513326" expanded="true" signature="17497:17686" ph="..." />
+                <marker date="1510672513326" expanded="true" signature="17801:17990" ph="..." />
+                <marker date="1510672513326" expanded="true" signature="17818:17989" ph="..." />
+                <marker date="1510672513326" expanded="true" signature="18000:18109" ph="..." />
+                <marker date="1510672513326" expanded="true" signature="18158:18271" ph="..." />
+                <marker date="1510672513326" expanded="true" signature="18324:18462" ph="..." />
               </folding>
             </state>
           </provider>
@@ -206,7 +199,6 @@
       </list>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="SIGN_OFF_COMMIT" value="true" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -730,7 +722,14 @@
       <option name="project" value="LOCAL" />
       <updated>1510665590257</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="update 5">
+      <created>1510672519689</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1510672519689</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -960,94 +959,94 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1510672411926" expanded="true" signature="2055:2075" ph="..." />
-            <marker date="1510672411926" expanded="true" signature="2180:3386" ph="..." />
-            <marker date="1510672411926" expanded="true" signature="2291:2944" ph="..." />
-            <marker date="1510672411926" expanded="true" signature="2304:2681" ph="..." />
-            <marker date="1510672411926" expanded="true" signature="2714:2944" ph="..." />
-            <marker date="1510672411926" expanded="true" signature="2837:2914" ph="..." />
-            <marker date="1510672411926" expanded="true" signature="2954:3068" ph="..." />
-            <marker date="1510672411926" expanded="true" signature="3200:3354" ph="..." />
-            <marker date="1510672411926" expanded="true" signature="3220:3320" ph="..." />
-            <marker date="1510672411926" expanded="true" signature="3450:4368" ph="..." />
-            <marker date="1510672411926" expanded="true" signature="3455:3751" ph="&quot;&quot;&quot;Try to determine the version from the parent directory name....&quot;&quot;&quot;" />
-            <marker date="1510672411926" expanded="true" signature="3793:4160" ph="..." />
-            <marker date="1510672411926" expanded="true" signature="3883:4057" ph="..." />
-            <marker date="1510672411926" expanded="true" signature="3904:4056" ph="..." />
-            <marker date="1510672411926" expanded="true" signature="4071:4160" ph="..." />
-            <marker date="1510672411926" expanded="true" signature="4177:4297" ph="..." />
-            <marker date="1510672411926" expanded="true" signature="4454:5484" ph="..." />
-            <marker date="1510672411926" expanded="true" signature="4518:4755" ph="..." />
-            <marker date="1510672411926" expanded="true" signature="4782:5422" ph="..." />
-            <marker date="1510672411926" expanded="true" signature="4856:5404" ph="..." />
-            <marker date="1510672411926" expanded="true" signature="4914:5044" ph="..." />
-            <marker date="1510672411926" expanded="true" signature="5098:5224" ph="..." />
-            <marker date="1510672411926" expanded="true" signature="5278:5404" ph="..." />
-            <marker date="1510672411926" expanded="true" signature="5590:8253" ph="..." />
-            <marker date="1510672411926" expanded="true" signature="5778:6237" ph="..." />
-            <marker date="1510672411926" expanded="true" signature="5787:6168" ph="..." />
-            <marker date="1510672411926" expanded="true" signature="6320:6474" ph="..." />
-            <marker date="1510672411926" expanded="true" signature="6548:6681" ph="..." />
-            <marker date="1510672411926" expanded="true" signature="6782:7443" ph="..." />
-            <marker date="1510672411926" expanded="true" signature="6791:7290" ph="..." />
-            <marker date="1510672411926" expanded="true" signature="7546:7926" ph="..." />
-            <marker date="1510672411926" expanded="true" signature="7640:7926" ph="..." />
-            <marker date="1510672411926" expanded="true" signature="7763:7925" ph="..." />
-            <marker date="1510672411926" expanded="true" signature="8102:8252" ph="..." />
-            <marker date="1510672411926" expanded="true" signature="8380:11795" ph="..." />
-            <marker date="1510672411926" expanded="true" signature="8385:8674" ph="&quot;&quot;&quot;Get version from 'git describe' in the root of the source tree....&quot;&quot;&quot;" />
-            <marker date="1510672411926" expanded="true" signature="8894:9049" ph="..." />
-            <marker date="1510672411926" expanded="true" signature="9055:9187" ph="..." />
-            <marker date="1510672411926" expanded="true" signature="9230:9398" ph="..." />
-            <marker date="1510672411926" expanded="true" signature="9923:10026" ph="..." />
-            <marker date="1510672411926" expanded="true" signature="10310:11252" ph="..." />
-            <marker date="1510672411926" expanded="true" signature="10419:10629" ph="..." />
-            <marker date="1510672411926" expanded="true" signature="10723:11019" ph="..." />
-            <marker date="1510672411926" expanded="true" signature="10747:10863" ph="..." />
-            <marker date="1510672411926" expanded="true" signature="11263:11515" ph="..." />
-            <marker date="1510672411926" expanded="true" signature="11822:11968" ph="..." />
-            <marker date="1510672411926" expanded="true" signature="11997:12850" ph="..." />
-            <marker date="1510672411926" expanded="true" signature="12002:12308" ph="&quot;&quot;&quot;Build up version string, with post-release &quot;local version identifier&quot;....&quot;&quot;&quot;" />
-            <marker date="1510672411926" expanded="true" signature="12338:12615" ph="..." />
-            <marker date="1510672411926" expanded="true" signature="12429:12615" ph="..." />
-            <marker date="1510672411926" expanded="true" signature="12625:12830" ph="..." />
-            <marker date="1510672411926" expanded="true" signature="12691:12768" ph="..." />
-            <marker date="1510672411926" expanded="true" signature="12883:13256" ph="..." />
-            <marker date="1510672411926" expanded="true" signature="12888:12987" ph="&quot;&quot;&quot;TAG[.post.devDISTANCE] -- No -dirty....&quot;&quot;&quot;" />
-            <marker date="1510672411926" expanded="true" signature="13017:13148" ph="..." />
-            <marker date="1510672411926" expanded="true" signature="13158:13236" ph="..." />
-            <marker date="1510672411926" expanded="true" signature="13290:14138" ph="..." />
-            <marker date="1510672411926" expanded="true" signature="13295:13593" ph="&quot;&quot;&quot;TAG[.postDISTANCE[.dev0]+gHEX] ....&quot;&quot;&quot;" />
-            <marker date="1510672411926" expanded="true" signature="13623:13929" ph="..." />
-            <marker date="1510672411926" expanded="true" signature="13714:13929" ph="..." />
-            <marker date="1510672411926" expanded="true" signature="13939:14118" ph="..." />
-            <marker date="1510672411926" expanded="true" signature="14171:14708" ph="..." />
-            <marker date="1510672411926" expanded="true" signature="14176:14300" ph="&quot;&quot;&quot;TAG[.postDISTANCE[.dev0]] ....&quot;&quot;&quot;" />
-            <marker date="1510672411926" expanded="true" signature="14330:14544" ph="..." />
-            <marker date="1510672411926" expanded="true" signature="14421:14544" ph="..." />
-            <marker date="1510672411926" expanded="true" signature="14554:14688" ph="..." />
-            <marker date="1510672411926" expanded="true" signature="14743:15222" ph="..." />
-            <marker date="1510672411926" expanded="true" signature="14748:14905" ph="&quot;&quot;&quot;TAG[-DISTANCE-gHEX][-dirty]....&quot;&quot;&quot;" />
-            <marker date="1510672411926" expanded="true" signature="14935:15081" ph="..." />
-            <marker date="1510672411926" expanded="true" signature="15091:15149" ph="..." />
-            <marker date="1510672411926" expanded="true" signature="15262:15750" ph="..." />
-            <marker date="1510672411926" expanded="true" signature="15267:15468" ph="&quot;&quot;&quot;TAG-DISTANCE-gHEX[-dirty]....&quot;&quot;&quot;" />
-            <marker date="1510672411926" expanded="true" signature="15498:15609" ph="..." />
-            <marker date="1510672411926" expanded="true" signature="15619:15677" ph="..." />
-            <marker date="1510672411926" expanded="true" signature="15779:16848" ph="..." />
-            <marker date="1510672411926" expanded="true" signature="15871:16067" ph="..." />
-            <marker date="1510672411926" expanded="true" signature="15888:16066" ph="..." />
-            <marker date="1510672411926" expanded="true" signature="16700:16847" ph="..." />
-            <marker date="1510672411926" expanded="true" signature="16870:18462" ph="..." />
-            <marker date="1510672411926" expanded="true" signature="16947:17211" ph="..." />
-            <marker date="1510672411926" expanded="true" signature="17271:17396" ph="..." />
-            <marker date="1510672411926" expanded="true" signature="17445:17778" ph="..." />
-            <marker date="1510672411926" expanded="true" signature="17496:17685" ph="..." />
-            <marker date="1510672411926" expanded="true" signature="17800:17989" ph="..." />
-            <marker date="1510672411926" expanded="true" signature="17817:17988" ph="..." />
-            <marker date="1510672411926" expanded="true" signature="17999:18108" ph="..." />
-            <marker date="1510672411926" expanded="true" signature="18157:18270" ph="..." />
-            <marker date="1510672411926" expanded="true" signature="18323:18461" ph="..." />
+            <marker date="1510672513326" expanded="true" signature="2055:2076" ph="..." />
+            <marker date="1510672513326" expanded="true" signature="2181:3387" ph="..." />
+            <marker date="1510672513326" expanded="true" signature="2292:2945" ph="..." />
+            <marker date="1510672513326" expanded="true" signature="2305:2682" ph="..." />
+            <marker date="1510672513326" expanded="true" signature="2715:2945" ph="..." />
+            <marker date="1510672513326" expanded="true" signature="2838:2915" ph="..." />
+            <marker date="1510672513326" expanded="true" signature="2955:3069" ph="..." />
+            <marker date="1510672513326" expanded="true" signature="3201:3355" ph="..." />
+            <marker date="1510672513326" expanded="true" signature="3221:3321" ph="..." />
+            <marker date="1510672513326" expanded="true" signature="3451:4369" ph="..." />
+            <marker date="1510672513326" expanded="true" signature="3456:3752" ph="&quot;&quot;&quot;Try to determine the version from the parent directory name....&quot;&quot;&quot;" />
+            <marker date="1510672513326" expanded="true" signature="3794:4161" ph="..." />
+            <marker date="1510672513326" expanded="true" signature="3884:4058" ph="..." />
+            <marker date="1510672513326" expanded="true" signature="3905:4057" ph="..." />
+            <marker date="1510672513326" expanded="true" signature="4072:4161" ph="..." />
+            <marker date="1510672513326" expanded="true" signature="4178:4298" ph="..." />
+            <marker date="1510672513326" expanded="true" signature="4455:5485" ph="..." />
+            <marker date="1510672513326" expanded="true" signature="4519:4756" ph="..." />
+            <marker date="1510672513326" expanded="true" signature="4783:5423" ph="..." />
+            <marker date="1510672513326" expanded="true" signature="4857:5405" ph="..." />
+            <marker date="1510672513326" expanded="true" signature="4915:5045" ph="..." />
+            <marker date="1510672513326" expanded="true" signature="5099:5225" ph="..." />
+            <marker date="1510672513326" expanded="true" signature="5279:5405" ph="..." />
+            <marker date="1510672513326" expanded="true" signature="5591:8254" ph="..." />
+            <marker date="1510672513326" expanded="true" signature="5779:6238" ph="..." />
+            <marker date="1510672513326" expanded="true" signature="5788:6169" ph="..." />
+            <marker date="1510672513326" expanded="true" signature="6321:6475" ph="..." />
+            <marker date="1510672513326" expanded="true" signature="6549:6682" ph="..." />
+            <marker date="1510672513326" expanded="true" signature="6783:7444" ph="..." />
+            <marker date="1510672513326" expanded="true" signature="6792:7291" ph="..." />
+            <marker date="1510672513326" expanded="true" signature="7547:7927" ph="..." />
+            <marker date="1510672513326" expanded="true" signature="7641:7927" ph="..." />
+            <marker date="1510672513326" expanded="true" signature="7764:7926" ph="..." />
+            <marker date="1510672513326" expanded="true" signature="8103:8253" ph="..." />
+            <marker date="1510672513326" expanded="true" signature="8381:11796" ph="..." />
+            <marker date="1510672513326" expanded="true" signature="8386:8675" ph="&quot;&quot;&quot;Get version from 'git describe' in the root of the source tree....&quot;&quot;&quot;" />
+            <marker date="1510672513326" expanded="true" signature="8895:9050" ph="..." />
+            <marker date="1510672513326" expanded="true" signature="9056:9188" ph="..." />
+            <marker date="1510672513326" expanded="true" signature="9231:9399" ph="..." />
+            <marker date="1510672513326" expanded="true" signature="9924:10027" ph="..." />
+            <marker date="1510672513326" expanded="true" signature="10311:11253" ph="..." />
+            <marker date="1510672513326" expanded="true" signature="10420:10630" ph="..." />
+            <marker date="1510672513326" expanded="true" signature="10724:11020" ph="..." />
+            <marker date="1510672513326" expanded="true" signature="10748:10864" ph="..." />
+            <marker date="1510672513326" expanded="true" signature="11264:11516" ph="..." />
+            <marker date="1510672513326" expanded="true" signature="11823:11969" ph="..." />
+            <marker date="1510672513326" expanded="true" signature="11998:12851" ph="..." />
+            <marker date="1510672513326" expanded="true" signature="12003:12309" ph="&quot;&quot;&quot;Build up version string, with post-release &quot;local version identifier&quot;....&quot;&quot;&quot;" />
+            <marker date="1510672513326" expanded="true" signature="12339:12616" ph="..." />
+            <marker date="1510672513326" expanded="true" signature="12430:12616" ph="..." />
+            <marker date="1510672513326" expanded="true" signature="12626:12831" ph="..." />
+            <marker date="1510672513326" expanded="true" signature="12692:12769" ph="..." />
+            <marker date="1510672513326" expanded="true" signature="12884:13257" ph="..." />
+            <marker date="1510672513326" expanded="true" signature="12889:12988" ph="&quot;&quot;&quot;TAG[.post.devDISTANCE] -- No -dirty....&quot;&quot;&quot;" />
+            <marker date="1510672513326" expanded="true" signature="13018:13149" ph="..." />
+            <marker date="1510672513326" expanded="true" signature="13159:13237" ph="..." />
+            <marker date="1510672513326" expanded="true" signature="13291:14139" ph="..." />
+            <marker date="1510672513326" expanded="true" signature="13296:13594" ph="&quot;&quot;&quot;TAG[.postDISTANCE[.dev0]+gHEX] ....&quot;&quot;&quot;" />
+            <marker date="1510672513326" expanded="true" signature="13624:13930" ph="..." />
+            <marker date="1510672513326" expanded="true" signature="13715:13930" ph="..." />
+            <marker date="1510672513326" expanded="true" signature="13940:14119" ph="..." />
+            <marker date="1510672513326" expanded="true" signature="14172:14709" ph="..." />
+            <marker date="1510672513326" expanded="true" signature="14177:14301" ph="&quot;&quot;&quot;TAG[.postDISTANCE[.dev0]] ....&quot;&quot;&quot;" />
+            <marker date="1510672513326" expanded="true" signature="14331:14545" ph="..." />
+            <marker date="1510672513326" expanded="true" signature="14422:14545" ph="..." />
+            <marker date="1510672513326" expanded="true" signature="14555:14689" ph="..." />
+            <marker date="1510672513326" expanded="true" signature="14744:15223" ph="..." />
+            <marker date="1510672513326" expanded="true" signature="14749:14906" ph="&quot;&quot;&quot;TAG[-DISTANCE-gHEX][-dirty]....&quot;&quot;&quot;" />
+            <marker date="1510672513326" expanded="true" signature="14936:15082" ph="..." />
+            <marker date="1510672513326" expanded="true" signature="15092:15150" ph="..." />
+            <marker date="1510672513326" expanded="true" signature="15263:15751" ph="..." />
+            <marker date="1510672513326" expanded="true" signature="15268:15469" ph="&quot;&quot;&quot;TAG-DISTANCE-gHEX[-dirty]....&quot;&quot;&quot;" />
+            <marker date="1510672513326" expanded="true" signature="15499:15610" ph="..." />
+            <marker date="1510672513326" expanded="true" signature="15620:15678" ph="..." />
+            <marker date="1510672513326" expanded="true" signature="15780:16849" ph="..." />
+            <marker date="1510672513326" expanded="true" signature="15872:16068" ph="..." />
+            <marker date="1510672513326" expanded="true" signature="15889:16067" ph="..." />
+            <marker date="1510672513326" expanded="true" signature="16701:16848" ph="..." />
+            <marker date="1510672513326" expanded="true" signature="16871:18463" ph="..." />
+            <marker date="1510672513326" expanded="true" signature="16948:17212" ph="..." />
+            <marker date="1510672513326" expanded="true" signature="17272:17397" ph="..." />
+            <marker date="1510672513326" expanded="true" signature="17446:17779" ph="..." />
+            <marker date="1510672513326" expanded="true" signature="17497:17686" ph="..." />
+            <marker date="1510672513326" expanded="true" signature="17801:17990" ph="..." />
+            <marker date="1510672513326" expanded="true" signature="17818:17989" ph="..." />
+            <marker date="1510672513326" expanded="true" signature="18000:18109" ph="..." />
+            <marker date="1510672513326" expanded="true" signature="18158:18271" ph="..." />
+            <marker date="1510672513326" expanded="true" signature="18324:18462" ph="..." />
           </folding>
         </state>
       </provider>
