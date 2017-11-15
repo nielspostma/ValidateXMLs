@@ -6,23 +6,25 @@ import click
 
 
 @click.command()
-@click.option('--xsd', default='/Tools/data/xsd/BC9.xsd', help='Root directory of the data.')
-@click.option('--inputdir', default='/Tools/data/input', help='Root directory of the data.')
-@click.option('--outputdir', default='/Tools/data/output', help='Root directory of the data.')
-@click.option('--errordir', default='/Tools/data/error', help='Root directory of the data.')
-def main(xsd, inputdir, outputdir, errordir):
+@click.option('--xsd', default='/Tools/data/xsd/BC9.xsd', help='xsd schema.')
+@click.option('--inputdir', default='/Tools/data/input', help='Root directory of the input data.')
+@click.option('--outputdir', default='/Tools/data/output', help='Root directory of the output data.')
+@click.option('--errordir', default='/Tools/data/error', help='Root directory of the error data.')
+@click.option('--copy', default=False, help='Do not move, but copy the files from inputdir.')
+def main(xsd, inputdir, outputdir, errordir, copy):
     xsd_doc = xsd_from_file(xsd)
     xml_doc = None
     list_files = get_files(inputdir)
     count_valid = 0
     count_invalid = 0
     count_known_error = 0
-    message_type = None
-    filename_from_xml = None
 
     for filename in list_files:
         # print(filename, )
         xml_exception = False
+        filename_from_xml = None
+        message_type = None
+
         try:
             xml_doc = xml_tree_from_file(filename)
             # print("valid_xml: ", valid_xml(xml_doc, xsd_doc))
@@ -35,6 +37,26 @@ def main(xsd, inputdir, outputdir, errordir):
             # lxml.etree.XMLSyntaxError xe:
             xml_exception = True
 
+        if filename_from_xml == None:
+                filename_from_xml = os.path.basename(filename)
+
+        if message_type == None:
+            try:
+                xml_doc = etree.parse(filename)
+                message_type = etree.XPath('MESSAGE_TYPE')
+            except:
+                 xml_exception = True
+
+        if message_type == None:
+            try:
+                xml_doc = open(filename).read()
+                start = xml_doc.find('<MESSAGE_TYPE>')
+                end = xml_doc.find('</MESSAGE_TYPE>')
+                length = len('<MESSAGE_TYPE>')
+                message_type = xml_doc[start+length:end]
+            except:
+                 xml_exception = True
+
         if xml_exception or not valid_xml(xml_doc, xsd_doc):
             print('Invalid xml: ', filename)
             known_error = check_known_issues(filename)
@@ -42,20 +64,30 @@ def main(xsd, inputdir, outputdir, errordir):
                 count_known_error += 1
                 known_error_path = os.path.join(errordir, str(known_error))
                 known_error_path = os.path.join(known_error_path, str(filename_from_xml))
-                copy_file(filename, known_error_path)
+                if copy:
+                    copy_file(filename, known_error_path)
+                else:
+                    move_file_to_dir(filename, known_error_path)
             else:
                 count_invalid += 1
-                print(xsd_doc.error_log)
+                if xsd_doc.error_log != None and xsd_doc.error_log != "":
+                    print(xsd_doc.error_log)
                 message_type_path = os.path.join(errordir, str(message_type))
                 message_type_path = os.path.join(message_type_path, str(filename_from_xml))
-                copy_file(filename, message_type_path)
+                if copy:
+                    copy_file(filename, message_type_path)
+                else:
+                    move_file_to_dir(filename, message_type_path)
         else:
             count_valid += 1
             # print('Valid xml', filename)
             message_type_path = os.path.join(outputdir, str(message_type))
             message_type_path = os.path.join(message_type_path, str(filename_from_xml))
             # move_file_to_dir(filename, message_type_path)
-            copy_file(filename, message_type_path)
+            if copy:
+                copy_file(filename, message_type_path)
+            else:
+                move_file_to_dir(filename, message_type_path)
 
     print("Number of files valid: ", count_valid, " Invalid: ", count_invalid, " KnownError:", count_known_error)
 
@@ -145,8 +177,10 @@ def copy_file(source, destination):
         if not os.path.exists(destinationDir):
             os.mkdir(destinationDir)
         shutil.copy(source, destination)
+        print('copied', source, 'to', destination)
     except:
         shutil.copy(source, destination+'1')
+        print('copied', source, 'to', destination+'1')
 
 
 def move_file_to_dir(source, destination):
@@ -155,8 +189,10 @@ def move_file_to_dir(source, destination):
         if not os.path.exists(destinationDir):
             os.mkdir(destinationDir)
         shutil.move(source, destination)
+        print('Moved', source, 'to', destination)
     except:
         shutil.move(source, destination+'1')
+        print('Moved', source, 'to', destination+'1')
 
 
 def print_xml(root):
