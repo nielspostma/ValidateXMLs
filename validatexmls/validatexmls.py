@@ -18,6 +18,8 @@ def main(xsd, inputdir, outputdir, errordir):
     count_invalid = 0
     count_known_error = 0
     message_type = None
+    filename_from_xml = None
+
     for filename in list_files:
         # print(filename, )
         xml_exception = False
